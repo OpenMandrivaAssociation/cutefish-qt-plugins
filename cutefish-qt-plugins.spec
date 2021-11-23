@@ -43,5 +43,5 @@ Unify Qt application style of CutefishOS.
 %files
 %license LICENSE
 %doc README.md
-%{_libdir}/gt5/platformthemes/libcutefishplatformtheme.so
-%{_libdir}/gt5//styles/libcutefishstyle.so
+%{_libdir}/qt5/platformthemes/libcutefishplatformtheme.so
+%{_libdir}/qt5//styles/libcutefishstyle.so
