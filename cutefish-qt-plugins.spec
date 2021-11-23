@@ -1,3 +1,5 @@
+%define oname qt-plugins
+
 Name:           cutefish-qt-plugins
 Version:        0.5
 Release:        1
@@ -5,7 +7,7 @@ Summary:        Qt platform theme plugin, unified style.
 License:        GPL-3.0-or-later
 Group:          System/GUI
 URL:            https://github.com/cutefishos/qt-plugins
-Source:         https://github.com/cutefishos/qt-plugins/archive/refs/tags/%{version}/%{name}-%{version}.tar.gz
+Source:         https://github.com/cutefishos/qt-plugins/archive/refs/tags/%{version}/%{oname}-%{version}.tar.gz
 
 BuildRequires:  cmake
 BuildRequires:  cmake(KF5WindowSystem)
@@ -29,7 +31,7 @@ BuildRequires:  pkgconfig(xcb-ewmh)
 Unify Qt application style of CutefishOS.
 
 %prep
-%autosetup -p1
+%autosetup -n %{oname}-%{version} -p1
 
 %build
 %cmake
