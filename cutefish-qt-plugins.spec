@@ -2,7 +2,7 @@
 
 Name:           cutefish-qt-plugins
 Version:        0.5
-Release:        1
+Release:        2
 Summary:        Qt platform theme plugin, unified style.
 License:        GPL-3.0-or-later
 Group:          System/GUI
